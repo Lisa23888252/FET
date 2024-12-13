@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №2 ІА-з21 Пасіченко Єлизавета Варіант 3</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <h1>Форма для заповнення</h1>
+    
+    <form id="form1" onsubmit="return Formdata(this)">
+        <label for="name">ПІБ:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="phone">Телефон:</label>
+        <input type="text" id="phone" name="phone"><br><br>
+
+        <label for="idcard">ID-card:</label>
+        <input type="text" id="idcard" name="idcard"><br><br>
+
+        <label for="faculty">Факультет:</label>
+        <input type="text" id="faculty" name="faculty"><br><br>
+
+        <label for="birthdate">Дата народження:</label>
+        <input type="text" id="birthdate" name="birthdate"><br><br>
+
+        <button type="submit">Перевірити</button>
+    </form>
+
+    <!-- Блок для відображення результатів -->
+    <div id="result"></div>
+
+    <h2>Таблиця</h2>
+
+    <!-- Вибір кольору -->
+    <label for="colorPicker">Виберіть колір:</label>
+    <input type="color" id="colorPicker" value="#ff0000"><br><br>
+
+    <table id="table" border="1">
+        <tbody></tbody>
+    </table>
+
+    <script src="script2.js"></script>
+</body>
+</html>
+
+
