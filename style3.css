@@ -1,0 +1,51 @@
+/* Стиль для блоку інформації про користувача */
+.user-info {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Стиль для зображення користувача */
+.user-info img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Стиль для параграфів в блоках з інформацією */
+.user-info p {
+    margin: 5px 0;
+}
+
+/* Стиль для контейнера */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Стиль для заголовку */
+h1 {
+    text-align: center;
+}
+
+/* Стиль для кнопки */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Стиль при наведенні на кнопку */
+button:hover {
+    background-color: #45a049;
+}
